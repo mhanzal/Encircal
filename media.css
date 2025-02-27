@@ -1,0 +1,236 @@
+@media (max-width:1052px) {
+
+
+    header {
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+       }
+
+    .side-nav ul li a {
+        font-size: 20px;
+    }
+    .side-nav ul {
+        margin-top: -30px;
+    }
+
+    .side-nav li:nth-child(4) a {   
+        cursor: pointer;
+        background-color: #169E00;
+        color: white;
+        padding: 10px 15px 10px 10px;
+        border: none;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 20px;  
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+}
+
+@media (max-width:445px) {
+
+    .side-nav ul li a {
+        font-size: 13px;
+    }
+
+    
+
+    header {
+        gap: 30px;
+        flex-direction: column;
+       }
+       .side-nav li:nth-child(4) a {   
+        cursor: pointer;
+        background-color: #169E00;
+        color: white;
+        padding: 3px 5px 3px 5px;
+        border: none;
+        text-decoration: none;
+        font-size: 10px;
+        border-radius: 20px;  
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .our-contact2 .cards {
+        width: auto;
+        height: 100px;
+        /*background-color: black;
+        */box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        padding: 10px;
+    }
+
+
+
+    .our-contact2 .cards h1 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .our-contact2 .cards p {
+        font-size: 18px;
+        color: rgb(159, 158, 158);
+        margin-top: 10px;
+    }
+
+
+    .our-contact2 .cards {
+        width: 30%;
+        height: auto;
+        padding: 5px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:1000px) {
+
+    .schdule-page h1, .services-page h1, .about-page h1 {
+        text-align: center;
+    } 
+
+    .logo img {
+        width: 200px;
+        margin-right: 60px;
+    }
+
+
+    .center-three-div {
+       gap: 40px;
+    }
+
+    .contact-heading h1 {
+        font-size: 50px;
+        color: #169E00;
+    }
+    .contact-heading {
+        text-align: center;       
+    }
+    .contact-heading p {
+        font-size: 20px;
+        color: #929292;
+        font-weight: 700;
+    }
+
+    footer {
+        gap: 50px;
+    }
+    .footers {
+        border-bottom: 2px solid white;
+        width: 100vw;
+        text-align: center;
+        padding-block: 20px;
+    }
+
+    .our-contact2 .cards {
+        width: 75vh;
+        height: 250px;
+        /*background-color: black;
+        */box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        padding: 10px;
+    }
+
+
+    .main-section {
+        margin-left: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .n2d-2-div .box1{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .main-section h1 {
+        font-size: 50px;
+        padding-block: 10px;
+    }
+    
+    .main-section h2 {
+        font-size: 20px;
+        padding-block: 12px;
+    }
+    
+    .main-section p {
+        font-size: 15px;
+        padding-block: 12px;
+    }
+
+    .main-section button {
+
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #169E00;
+        padding: 10px 15px 10px 10px;
+        border: none;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 20px;  
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+
+
+    .services-page h1 {
+        font-size: 80px;
+    }
+
+    .service-card img {
+        width: 150px;
+    }
+
+    .service-text h1 {
+        font-size: 30px;
+    }
+    .service-text p {
+        padding-block: 10px;
+        font-size: 10px;
+    }
+    
+    .service-text a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        background-color: #169E00;
+        padding: 10px 15px 10px 15px;    
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .service-card {
+        width: 92%;
+        height: 40vh;
+        background-color: #002A96;
+        display: flex;
+        /* flex-wrap: wrap; */
+        border-radius: 65px;
+        -webkit-border-radius: 65px;
+        -moz-border-radius: 65px;
+        -ms-border-radius: 65px;
+        -o-border-radius: 65px;
+    }
+}
